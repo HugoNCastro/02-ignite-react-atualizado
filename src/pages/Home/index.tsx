@@ -33,8 +33,8 @@ export function Home() {
     }
   }) 
 
-  function handleCreateNewCycle(data: any){
-    console.log(data)
+  function handleCreateNewCycle(data: NewCycleFormData){
+    console.log(data) 
     reset();
   }
 
